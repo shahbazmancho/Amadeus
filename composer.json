@@ -1,0 +1,29 @@
+{
+    "name": "shabax/amadeus",
+    "description": "Laravel Library for Amadeus Self-Service Atravel APIs",
+    "keywords": ["amadeus","flights","travel","laravel"],
+    "authors": [
+        {
+            "name": "Shahbaz Mancho",
+            "email": "shahbazmancho@gmail.com",
+            "role":"Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShaBax\\Amadeus\\AmadeusProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ShaBax\\Amadeus\\": "src/"
+        }
+    }
+    
+}

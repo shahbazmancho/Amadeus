@@ -1,0 +1,8 @@
+vendor/
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+Homestead.yaml
+Homestead.json
+composer.lock
